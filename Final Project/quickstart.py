@@ -24,7 +24,7 @@ import base64
 # In[166]:
 
 
-
+#GMAIL API
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = 'https://mail.google.com/'
 def main():
@@ -162,16 +162,3 @@ def uploadFile(entry,folder,path):
     file1.Upload()
     return file1['alternateLink']
 getPath()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
